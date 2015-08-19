@@ -1,6 +1,6 @@
 {
   "name": "meteoredux",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A small package that make Redux connected with Meteor.",
   "main": "lib/meteoredux.js",
   "scripts": {
