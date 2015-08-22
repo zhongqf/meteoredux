@@ -72,9 +72,10 @@ let todos = store.getState().todos;
 Or when used multi reducers
 
 ```javascript
-let todos = store.getState().todoReducers.todos;
+let todos = store.getState().todosReducer.todos;
 ```
 
 ### Example
 
+https://github.com/zhongqf/meteor-react-redux-example
 https://github.com/zhongqf/meteor-vue-redux-example
