@@ -72,7 +72,7 @@ function MeteorRedux(store){
 
 function updateData(state, data) {
 
-  let result = state; //deep clone?
+  let result = Object.assign({}, state);
 
   if (! (data && (typeof data) === 'object')) {
     throw new Error("Expected object returned from bindReactiveData");
